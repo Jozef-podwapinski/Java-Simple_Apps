@@ -9,3 +9,7 @@ SQL QUERIES
 
 
 ![SQL](https://user-images.githubusercontent.com/124705412/234042869-ba9d30e8-15b2-4129-8726-55ceecfe2971.PNG)
+
+JAVA GUESSING GAME
+
+![JAVA_GUESSING_GAME](https://user-images.githubusercontent.com/124705412/234066233-e26976e5-12e9-4fef-82eb-ffe3881a6ded.PNG)
