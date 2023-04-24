@@ -1,0 +1,38 @@
+package guessing_game_udemy_course;
+import javax.swing.*;
+
+public class GuessingGame {
+   public static void main(String[] args) {
+       int genNumber = (int) (Math.random()*10 + 1);
+       int Answer = 0;
+       System.out.println("The correct number is " + genNumber);
+        int count = 1;
+
+       while (Answer != genNumber)
+       {
+           String response = JOptionPane.showInputDialog(null,
+               "Enter a guess between 1 and 10", "Guessing Game", 3);
+           Answer = Integer.parseInt(response);
+           JOptionPane.showMessageDialog(null, ""+ determineGuess(Answer, genNumber, count));
+           count++;
+       }  
+   }
+
+   public static String determineGuess(int Answer, int genNumber, int count){
+       if (Answer <=0 || Answer >10) {
+           return "Your guess is invalid";
+       }
+       else if (Answer == genNumber ){
+           return "You WIN!!!\nTotal Guesses: " + count;
+       }
+       else if (Answer > genNumber) {
+           return "Choosed number is higher, try again.\nYour Number: " + count;
+       }
+       else if (Answer < genNumber) {
+           return "Choosed number is lower, try again.\nYour Number: " + count;
+       }
+       else {
+           return "Choosed number is incorrect\nYour Number: " + count;
+   	}
+   }
+}
