@@ -7,4 +7,5 @@ Test cases and bug reports were created for the website https://dev-mystore-test
 
 SQL QUERIES 
 
-[sql komendy.txt](https://github.com/Jozef-podwapinski/Testing_and_programming/files/11311943/sql.komendy.txt)
+
+![SQL](https://user-images.githubusercontent.com/124705412/234042869-ba9d30e8-15b2-4129-8726-55ceecfe2971.PNG)
