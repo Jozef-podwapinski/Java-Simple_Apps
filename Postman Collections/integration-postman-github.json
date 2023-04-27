@@ -7,7 +7,7 @@
 	"item": [
 		{
 			"name": "Bank_Accounts_list",
-			"_postman_id": "b33a1990-8829-48f4-9284-37def55e3bf2",
+			"id": "b33a1990-8829-48f4-9284-37def55e3bf2",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -26,27 +26,41 @@
 		},
 		{
 			"name": "Bills_list",
-			"_postman_id": "f8b6b3f7-97c0-4636-8693-86d2d564d936",
+			"id": "f8b6b3f7-97c0-4636-8693-86d2d564d936",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
 				"method": "GET",
-				"header": [],
-				"url": null
+				"header": []
 			},
 			"response": []
 		},
 		{
 			"name": "New Request",
-			"_postman_id": "89a23559-3ae7-4d60-a249-7c6c2d8c18a0",
+			"id": "89a23559-3ae7-4d60-a249-7c6c2d8c18a0",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIzMCIsImp0aSI6ImQxYzdlZTZkYjQ0YTcyYjMzOGRlNzdhMTNjNDc3NTMyZDJjZWVhZDNlMDIwZWQwOWY4YmRmYjYwNDQ5MjgzMjdiZmM2ZDAzN2ZjNmJjMTZkIiwiaWF0IjoxNjgyNTE1MjQyLjgyMTIsIm5iZiI6MTY4MjUxNTI0Mi44MjEyMDQsImV4cCI6MTcxNDEzNzY0Mi44MDc3MjYsInN1YiI6IjkwOSIsInNjb3BlcyI6W119.A8h2HCoDaV_rNf5EOHaB6dS0889FJVkAbk9o9esXdf01dI6tDiRBYgCc8OiHiwIwyzU3_buVXYt_ncP4nnRJwH0BvzQuKaJ2cCTyJ-ZIdL-vbTCCSxsXyYZCwtByQaTuj4jkWV2KxfjyP-wLil5RqzUXNID7EvkZiLyN7ifsxMjlqj9QpEQ22a6ul7A892cRCf7mpRMj38QpBh0W_M6EPMUh-GtFlniRQfGOyIl9TPw7j4w_LfS_Agq1huh4m4zh5amyFty4fvBwW1XWQVLxjmdEVBPUZrV-Ss5O4C0CzfXNBBmv3NRec5bib_cU9EwB6Y1YUjAZKVt0MEzxZqPHbzoLUqgm5dju-9C-Agi35OtnB86mLF3s6knlfGWzWvjIfY_6vKb8g0MzO5FB5bp9uSDM_43VzAQF9VBCFugHwoYBTE8dxYuzjts4N-cDsVm5P43SirSe1r9gmpR1R-W98kXuDGoaVXGeFy6puOE8oZmSypLUqOS3-qgnTbcFRhEQ6jHjoLlyckqMwqs14SgEX-ndIJY67dRnzri8YoYFXm-AenSRGtP2eXYzeQvyRRY7wE41Y9hzwwU17VsxDu-zJV_X6dLPcziVIqekH79rWr5ZVSV7VWzYe61IC5Rntfh2DA-OTKbD6m7qDU45KKksoScIhOPyTQgj8U8A5P1D_-E"
+					}
+				},
+				"method": "POST",
 				"header": [],
-				"url": null
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"enabled\": true,\r\n  \"default\": false,\r\n  \"code\": \"tibia124313\",\r\n  \"name\": \"waluta_tibijska241313\",\r\n  \"symbol\": \"tibia13\",\r\n  \"decimal_places\": 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://fintech-testlab.coderslab.pl/api/v1/currencies"
 			},
 			"response": []
 		}
