@@ -21,3 +21,4 @@ ISSUE REPORTS
 ![ISSUE4](https://user-images.githubusercontent.com/124705412/234069187-af0a516a-5fc7-4c94-8ad3-39decf9dae54.PNG)
 ![ISSUE5](https://user-images.githubusercontent.com/124705412/234069200-1107170b-0a3e-4030-9cba-73fc1bed94cf.PNG)
 ![ISSUE6](https://user-images.githubusercontent.com/124705412/234069210-687d25b3-6409-45c0-a36d-d506a84398cb.PNG)
+![image](https://user-images.githubusercontent.com/124705412/234805769-c93442af-1961-4fa1-885c-849ec2ab2bd8.png)
