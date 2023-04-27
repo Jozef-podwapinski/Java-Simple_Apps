@@ -88,6 +88,18 @@
 				"url": "https://fintech-testlab.coderslab.pl/api/v1/currencies/tibia13"
 			},
 			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "948156b7-777d-4c8b-b783-9452bc7f1f2e",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
 		}
 	]
 }
