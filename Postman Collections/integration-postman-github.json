@@ -37,7 +37,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "Create_currency",
 			"id": "89a23559-3ae7-4d60-a249-7c6c2d8c18a0",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
