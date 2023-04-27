@@ -96,7 +96,7 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "DELETE",
+				"method": "PUT",
 				"header": [],
 				"url": "https://fintech-testlab.coderslab.pl/api/v1/currencies/tibia13"
 			},
