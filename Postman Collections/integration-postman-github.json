@@ -63,6 +63,18 @@
 				"url": "https://fintech-testlab.coderslab.pl/api/v1/currencies"
 			},
 			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "a2bb6244-e56c-4485-80a1-7a5f51909357",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
 		}
 	]
 }
