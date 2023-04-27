@@ -90,14 +90,15 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
-			"id": "948156b7-777d-4c8b-b783-9452bc7f1f2e",
+			"name": "Update_currency Copy",
+			"id": "110f6ad8-07a3-427d-8d3d-bc8c18abf282",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "PUT",
+				"header": [],
+				"url": "https://fintech-testlab.coderslab.pl/api/v1/currencies/tibia13"
 			},
 			"response": []
 		}
