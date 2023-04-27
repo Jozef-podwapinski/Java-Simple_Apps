@@ -96,8 +96,12 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "PUT",
+				"method": "DELETE",
 				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"enabled\": true,\r\n  \"default\": false,\r\n  \"code\": \"tibia124313\",\r\n  \"name\": \"waluta_tibijska241313\",\r\n  \"symbol\": \"tibia1313\",\r\n  \"decimal_places\": 2\r\n}"
+				},
 				"url": "https://fintech-testlab.coderslab.pl/api/v1/currencies/tibia13"
 			},
 			"response": []
