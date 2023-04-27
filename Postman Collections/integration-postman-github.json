@@ -144,13 +144,34 @@
 		},
 		{
 			"name": "testy1",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "967a20c2-f781-4b70-91fb-a9d06c5ebb77",
+						"exec": [
+							"pm.test(\"Status code name has string\", function () {\r",
+							"    pm.response.to.have.status(\"essa\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"id": "b0d07de5-8a43-4fe0-ad8e-1c64f14f8813",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIzMCIsImp0aSI6ImQxYzdlZTZkYjQ0YTcyYjMzOGRlNzdhMTNjNDc3NTMyZDJjZWVhZDNlMDIwZWQwOWY4YmRmYjYwNDQ5MjgzMjdiZmM2ZDAzN2ZjNmJjMTZkIiwiaWF0IjoxNjgyNTE1MjQyLjgyMTIsIm5iZiI6MTY4MjUxNTI0Mi44MjEyMDQsImV4cCI6MTcxNDEzNzY0Mi44MDc3MjYsInN1YiI6IjkwOSIsInNjb3BlcyI6W119.A8h2HCoDaV_rNf5EOHaB6dS0889FJVkAbk9o9esXdf01dI6tDiRBYgCc8OiHiwIwyzU3_buVXYt_ncP4nnRJwH0BvzQuKaJ2cCTyJ-ZIdL-vbTCCSxsXyYZCwtByQaTuj4jkWV2KxfjyP-wLil5RqzUXNID7EvkZiLyN7ifsxMjlqj9QpEQ22a6ul7A892cRCf7mpRMj38QpBh0W_M6EPMUh-GtFlniRQfGOyIl9TPw7j4w_LfS_Agq1huh4m4zh5amyFty4fvBwW1XWQVLxjmdEVBPUZrV-Ss5O4C0CzfXNBBmv3NRec5bib_cU9EwB6Y1YUjAZKVt0MEzxZqPHbzoLUqgm5dju-9C-Agi35OtnB86mLF3s6knlfGWzWvjIfY_6vKb8g0MzO5FB5bp9uSDM_43VzAQF9VBCFugHwoYBTE8dxYuzjts4N-cDsVm5P43SirSe1r9gmpR1R-W98kXuDGoaVXGeFy6puOE8oZmSypLUqOS3-qgnTbcFRhEQ6jHjoLlyckqMwqs14SgEX-ndIJY67dRnzri8YoYFXm-AenSRGtP2eXYzeQvyRRY7wE41Y9hzwwU17VsxDu-zJV_X6dLPcziVIqekH79rWr5ZVSV7VWzYe61IC5Rntfh2DA-OTKbD6m7qDU45KKksoScIhOPyTQgj8U8A5P1D_-E"
+					}
+				},
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": "https://fintech-testlab.coderslab.pl/api/v1/bills"
 			},
 			"response": []
 		},
