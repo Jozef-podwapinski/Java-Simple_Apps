@@ -53,7 +53,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"enabled\": true,\r\n  \"default\": false,\r\n  \"code\": \"tibia124313\",\r\n  \"name\": \"waluta_tibijska241313\",\r\n  \"symbol\": \"tibia13\",\r\n  \"decimal_places\": 2\r\n}",
+					"raw": "{\r\n  \"enabled\": true,\r\n  \"default\": false,\r\n  \"code\": \"tibia124313\",\r\n  \"name\": \"waluta_tibijska241313\",\r\n  \"symbol\": \"tibia13\",\r\n  \"decimal_places\": 8\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
