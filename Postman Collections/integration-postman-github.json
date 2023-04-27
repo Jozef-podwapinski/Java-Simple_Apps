@@ -143,7 +143,7 @@
 			"response": []
 		},
 		{
-			"name": "testy Copy",
+			"name": "testy1",
 			"id": "b0d07de5-8a43-4fe0-ad8e-1c64f14f8813",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
