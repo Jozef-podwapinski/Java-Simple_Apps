@@ -83,8 +83,9 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "PUT",
+				"header": [],
+				"url": "https://fintech-testlab.coderslab.pl/api/v1/currencies/tibia13"
 			},
 			"response": []
 		}
