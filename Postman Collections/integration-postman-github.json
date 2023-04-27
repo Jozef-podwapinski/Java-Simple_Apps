@@ -90,13 +90,13 @@
 			"response": []
 		},
 		{
-			"name": "Update_currency Copy",
+			"name": "Delete_currency",
 			"id": "110f6ad8-07a3-427d-8d3d-bc8c18abf282",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "PUT",
+				"method": "DELETE",
 				"header": [],
 				"url": "https://fintech-testlab.coderslab.pl/api/v1/currencies/tibia13"
 			},
