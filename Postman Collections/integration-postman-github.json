@@ -131,8 +131,32 @@
 			"response": []
 		},
 		{
-			"name": "testy",
+			"name": "test",
 			"id": "9ca677b8-92f5-4a2a-b7b0-e982909fb1e4",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "testy Copy",
+			"id": "b0d07de5-8a43-4fe0-ad8e-1c64f14f8813",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "testy Copy 2",
+			"id": "1f8c2bfa-ff9c-47a0-88a7-b63383e80049",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
