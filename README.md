@@ -22,3 +22,6 @@ ISSUE REPORTS
 ![ISSUE5](https://user-images.githubusercontent.com/124705412/234069200-1107170b-0a3e-4030-9cba-73fc1bed94cf.PNG)
 ![ISSUE6](https://user-images.githubusercontent.com/124705412/234069210-687d25b3-6409-45c0-a36d-d506a84398cb.PNG)
 ![image](https://user-images.githubusercontent.com/124705412/234805769-c93442af-1961-4fa1-885c-849ec2ab2bd8.png)
+![404](https://user-images.githubusercontent.com/124705412/235152139-e8e9e0b2-fea4-4d17-bc33-b9776da9ba0e.PNG)
+![soapui2](https://user-images.githubusercontent.com/124705412/235152190-c0d6ef17-7b90-45c9-9365-c7a97d3967fc.PNG)
+![soapui](https://user-images.githubusercontent.com/124705412/235152203-48fa610a-7968-494b-a42c-7a320a7c4137.PNG)
