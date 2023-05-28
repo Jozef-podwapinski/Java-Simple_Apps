@@ -28,3 +28,5 @@ DEVTOOLS
  SOAPUI
 ![soapui2](https://user-images.githubusercontent.com/124705412/235152190-c0d6ef17-7b90-45c9-9365-c7a97d3967fc.PNG)
 ![soapui](https://user-images.githubusercontent.com/124705412/235152203-48fa610a-7968-494b-a42c-7a320a7c4137.PNG)
+VISUAL STUDIO 2022 AUTOMATIC TEST FOR GUESSING GAME 
+![automatyczny test csharp ss](https://github.com/Jozef-podwapinski/Testing_and_programming/assets/124705412/fca13765-3386-4b32-a8da-76c009335204)
